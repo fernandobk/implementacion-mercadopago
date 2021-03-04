@@ -7,7 +7,7 @@ $deviceId = $data->dId;
 $data = base64_decode($data->data);
 $data = json_decode($data);
 
-$miurl = 'https://fbk-testmp.herokuapp.com/';
+$miurl = 'https://implementacion-mercadopago.herokuapp.com/';
 $urlmp = 'https://api.mercadopago.com/checkout/preferences';
 $access_token = 'APP_USR-608543104562541-021902-b17564179aba1584351fbd0b037de82b-509680563';
 $integrator_id = 'abc123';
